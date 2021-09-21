@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Module files for Headers Managers Module.
+ */
+
+
+/**
+ * Implements hook_page_attachments_alter().
+ * @param array $attachments
+ */
+
+function headers_manager_page_attachments_alter(array $attachments){
+foreach($attachments['#attached']['html-head'] as $key => $attachment){
+
+if($attachment[1] == 'system_meta_generator') {
+
+    unset($attachments['#attached']['html-head'][$key]);
+  }
+ }
+}

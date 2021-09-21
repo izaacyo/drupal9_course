@@ -1,0 +1,7 @@
+regexp_checker.showing_results:
+  js:
+    js/showing_results.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings

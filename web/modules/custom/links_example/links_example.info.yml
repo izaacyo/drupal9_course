@@ -1,0 +1,5 @@
+name: Links Example
+type: module
+description: "The first link example in drupal9"
+core_version_requirement: ^9
+package: "Drupal Practice BCH, REACT21K"

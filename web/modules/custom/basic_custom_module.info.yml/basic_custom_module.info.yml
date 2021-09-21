@@ -1,0 +1,5 @@
+name: "Basic Custom Module"
+description: "This is the custom basic module"
+type: module
+core_version_requiurement: ^8 || ^9
+package: "Drupal learning"

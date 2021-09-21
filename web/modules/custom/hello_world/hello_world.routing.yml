@@ -1,0 +1,7 @@
+hello_world.hello:
+path: "/hello",
+defaults:
+  _controller: 'Drupal\hello_world\Controller\HelloWorldController::helloWorld',
+  _title: "Our first route in Drupal 9",
+_requirements:
+  _permission: "access content"

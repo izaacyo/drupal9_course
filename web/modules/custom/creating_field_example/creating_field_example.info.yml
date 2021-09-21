@@ -1,0 +1,5 @@
+name: Creating Field
+type: module
+description: "Creating new Field with Plugins."
+package: "REACT21K DRUPAL"
+core_version_requirement: ^8 || ^9

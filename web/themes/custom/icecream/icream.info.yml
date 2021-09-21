@@ -1,0 +1,6 @@
+name: Ice Cream
+type: theme
+base theme: classy
+description: A great theme for rainy winter days here in Finland.
+package: CUstom
+core_version_requirement: ^8 || ^9
